@@ -6,3 +6,5 @@ A centralized MongoDB connection handler with connection pooling and graceful sh
 
 ```sh
 npm install mongo-centralized
+
+===
