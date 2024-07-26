@@ -5,4 +5,4 @@ A centralized MongoDB connection handler with connection pooling and graceful sh
 ## Installation
 
 ```sh
-npm install mongo-central
+npm install mongo-centralized
