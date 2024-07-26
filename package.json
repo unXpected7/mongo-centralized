@@ -1,6 +1,6 @@
 {
   "name": "mongo-centralized",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A centralized MongoDB connection handler with connection pooling and graceful shutdown support.",
   "main": "index.js",
   "scripts": {
