@@ -24,4 +24,7 @@ jobs:
     - name: Publish to npm
       env:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-      run: npm publish
+      run:  |
+        for i in {1..5}; do
+          npm publish && break || sleep 15
+        done
